@@ -17,6 +17,9 @@ public record DadosCadastroMedicos(
 			String email,
 			
 			@NotBlank
+			String telefone,
+			
+			@NotBlank
 			@Pattern(regexp = "\\d{4,6}")
 			String crm,
 			
@@ -27,6 +30,5 @@ public record DadosCadastroMedicos(
 			@Valid
 			DadosEndereco endereco
 		){
-	
 	
 }
