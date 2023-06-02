@@ -15,6 +15,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import med.voll.api.endereco.Endereco;
 
+
 @Entity
 @Table(name = "medicos")
 @Getter
